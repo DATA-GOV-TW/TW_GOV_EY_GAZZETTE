@@ -6,6 +6,14 @@
 
 - [行政院公報資訊網](https://gazette.nat.gov.tw/egFront/index.do)
 
+# 問題
+
+- 內容 (HTMLContent) 包含 MS Words tag
+- 所有內容都包在 !CDATA 內 
+- 公告缺少直接對應到 Join 的連結
+- 結構化，但是骯髒的內容
+- 關鍵字感覺雜亂可怕
+
 # 資料格式說明
 
 [XML 範例](https://gazette.nat.gov.tw/egFront/fileView.do?fileType=openDataSamplePath&fileName=3680d08ac14c47e32eb51687046f4f79&attached)
@@ -37,5 +45,8 @@ XML Tag|中文欄位|欄位內容範例及備註
 |Service|服務分類||
 |GazetteHTML|公報網址|指該則行政院公報的網址|
 |HTMLContent|網頁內容|指該則行政院公報的網頁內容，請參考 XML 範例|
+
+## 轉 JSON 檔
+使用 XML OXHGEN 轉檔功能
 
 
