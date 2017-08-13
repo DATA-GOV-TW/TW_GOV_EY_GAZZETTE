@@ -11,8 +11,8 @@
 [XML 範例](https://gazette.nat.gov.tw/egFront/fileView.do?fileType=openDataSamplePath&fileName=3680d08ac14c47e32eb51687046f4f79&attached)
 
 ## XML欄位說明
-XML|Tag|中文欄位|欄位內容範例及備註
-|---|---|---|---|
+XML Tag|中文欄位|欄位內容範例及備註
+|---|---|---|
 |MetaId|公報系統流水號|60079<br>各則公報的PDF檔是以公報系統流水號命名，如：流水號 60079 的公報其 PDF 檔是 60079.pdf|
 |Doc_Style_LName|公報類型|法規|
 |Doc_Style_SName|公報小類型|中央法規標準法第 3 條之 7 種命令<br>公報類型第二層|
